@@ -1,0 +1,22 @@
+footer{
+    background-color: #D5D4D8;
+    padding-block: 1.2rem;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 1.56rem;
+        justify-content: center;
+    }
+    nav a{
+        font-size: 1.8rem;
+        color: #918E9B;
+        &:hover{
+            color: #161619;
+        }
+    }
+}

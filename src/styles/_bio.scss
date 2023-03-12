@@ -1,0 +1,12 @@
+.bio{
+    margin-block: 1.5625rem;
+    padding-inline: 2.19rem;
+
+    h2,p{
+        margin-block: 5px;
+    }
+
+    .subsection:not(:last-of-type){
+        margin-bottom: 27px;
+    }
+}

@@ -1,0 +1,40 @@
+.btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    padding: 0.3rem 1.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border-radius: 0.3rem;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.btn-plain{
+    border: 1px solid #D1D5DB;
+    background-color: #FFFFFF;
+    color: #374151;
+    &:hover{
+        color: #FFFFFF;
+        background-color: #374151;
+    }
+}
+
+.btn-colored{
+    background-color: #297FE5;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    &:hover{
+        background-color: #FFFFFF;
+        color: #297FE5;
+    }
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 1.1rem;
+    justify-content: center;
+}
